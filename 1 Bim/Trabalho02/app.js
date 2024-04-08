@@ -27,6 +27,6 @@ deuses.forEach(deus => console.log(deus.nome));
 
 deuses.sort((a, b) => a.nome.localeCompare(b.nome));
 console.log("\nNomes dos Deuses ordenados alfabeticamente:");
-let nomes= deuses.map(deus => deus.nome);;
+let nomes= deuses.map(deus => deus.nome);
 
 console.log(nomes);
